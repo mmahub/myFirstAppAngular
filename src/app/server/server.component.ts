@@ -9,4 +9,8 @@ export class ServerComponent{
 ServerStatus: number = 10;
 ServerId: string = 'offline'
 
+getServerStatus(){
+    return this.ServerStatus;
+}
+
 }
